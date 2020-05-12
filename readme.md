@@ -18,9 +18,11 @@ A local *habitation* and a **name**.
 Here is `some code` in the middle of a sentence.
 
 ```
-This is
-a block
-of code
+if(!isset($_POST['fdesde'])){
+	$fdesde=date("Y-m", strtotime("-12 months"))."-01";
+}	else{
+		$fdesde=$_POST['fdesde'];
+	}
 ```
 
 Here is how you make [a link](https://www.wikipedia.org/).
